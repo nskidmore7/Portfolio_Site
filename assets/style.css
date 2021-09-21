@@ -1,12 +1,45 @@
-.img {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url(C:\Users\njski\desktop\homework\homework-2\Portfolio_Site\assets\Images\Headshot.jpg);
-    background-size: cover;
-    background-position: center;
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.nav:hover {
-    color: aqua;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #007A33;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+nav a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: inherit;
+    margin-right: 0.625rem;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: space-between;
+    min-width: 300px;
+    float: none;
+    margin-right: 25px;
+}
+
+li :hover {
+    color: gray;
+}
+
+h1 {
+
+}
+
+.links {
+    color: black;
 }
