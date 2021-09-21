@@ -6,3 +6,7 @@
     background-size: cover;
     background-position: center;
 }
+
+.nav:hover {
+    color: aqua;
+}
