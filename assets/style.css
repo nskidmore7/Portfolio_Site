@@ -34,7 +34,6 @@
   }
 
   .colosseum {
-      background: url(Images/Colosseum.jpeg);
       background-size: cover;
       height: 300px;
       width: 300px;
@@ -43,7 +42,6 @@
   }
 
 .omaha {
-    background: url(Images/Omaha.jpg);
     background-size: cover;
     height: 150px;
     width: 150px;
@@ -52,7 +50,6 @@
 }
 
 .owl {
-    background: url(Images/Owl.jpg);
     background-size: cover;
     height: 150px;
     width: 150px;
