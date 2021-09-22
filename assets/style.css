@@ -1,45 +1,69 @@
-:root {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.header {
+    background-color: #007A33;
+    padding: 20px;
+    text-align: center;
+    font-size: 300%;
 }
 
-header {
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #007A33;
+    width: 100%;
+  }
+
+  .nav a:hover {
+    background-color: gray;
+    color: black;
+  }
+
+  .column-1 {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    background-color: #007A33;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 400px;
+    width: 75%;
+    padding: 15px
+  }
+
+  .colosseum {
+      background: url(Images/Colosseum.jpeg);
+      background-size: cover;
+      height: 300px;
+      width: 300px;
+      position: relative;
+      display: inline;
+  }
+
+.omaha {
+    background: url(Images/Omaha.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: inline;
 }
 
-h1 {
-    font-size: 200%;
+.owl {
+    background: url(Images/Owl.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: inline;
 }
 
-nav a {
-    color: black;
-    font-weight: bolder;
-    text-decoration: none;
-    text-align: inherit;
-    margin-right: 0.625rem;
-}
-
-nav ul {
-    display: flex; 
-    justify-content: space-between;
-    min-width: 300px;
-    float: none;
-    margin-right: 25px;
-}
-
-li :hover {
-    color: gray;
-}
-
-h1 {
-
-}
-
-.links {
-    color: black;
-}
+  .hero-image {
+    background: url(Images/Headshot.jpg) no-repeat center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: inline;
+  }
