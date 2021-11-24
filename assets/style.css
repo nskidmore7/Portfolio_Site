@@ -24,6 +24,14 @@
     color: black;
 }
 
+.img {
+    border-radius: 100px;
+    width: 33%;
+    height: auto;
+    display: inline;
+    float: left;
+}
+
 html{
     background-image: url("./Images/pexels-joão-jesus-925743.jpg");
     background-size: contain;
@@ -32,14 +40,6 @@ html{
 ul {
     list-style-type: none;
     text-align: center;
-}
-
-img {
-    border-radius: 100px;
-    width: 33%;
-    height: auto;
-    display: inline;
-    float: left;
 }
 
 @media screen and (max-width: 992px) {
