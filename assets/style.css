@@ -5,7 +5,7 @@
     font-size: 300%;
 }
 
-.nav a {
+.nav {
     float: left;
     display: block;
     color: black;
@@ -58,7 +58,7 @@
 }
 
 .hero-image {
-    background: url(Images/Headshot.jpg) no-repeat center;
+    background: url(./Images/TWST_PHOTO.jpg) no-repeat center;
     background-size: cover;
     height: 300px;
     width: 300px;
